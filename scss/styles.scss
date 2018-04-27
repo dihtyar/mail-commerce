@@ -1,0 +1,281 @@
+@import "foundation";
+
+.no-bg {
+  background: transparent !important;
+}
+
+.custom-pb {
+  padding-bottom: 10px !important;
+}
+
+.tiny-text {
+  font-size: 14px;
+  color: $grey;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.bg-white{
+  background-color: $white;
+  width: 100%;
+}
+
+.bg-gray{
+  width: 100%;
+  background-color: $gray-lightnes;
+  .spacer, .spacer td{
+    background-color: $gray-lightnes;;
+  }
+}
+.bg-second{
+  background-color: #B3B3B5;
+  width: 100%;
+  .spacer, .spacer td{
+    background-color: #B3B3B5;
+  }
+}
+.tiny{
+  font-size: 12px;
+  color: #545556;
+  text-decoration: none;
+}
+.tiny_mid{
+  font-size: 14px;
+}
+.link{
+  text-decoration: none;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.pic{
+
+}
+table.body .pic .columns{
+  padding-bottom: 0;
+}
+.wrap{
+  //width: 552px;
+  //margin: auto;
+}
+.wrap2 tbody > tr > td > .row{
+  //width: 602px;
+  background-color: $white;
+  border-left: 9px solid $gray-second;
+  border-right: 9px solid $gray-second;
+}
+
+table.body .icon-group .columns{
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-bottom: 12px;
+}
+table.body .icon-group .columns.large-12{
+  padding-bottom: 0;
+}
+table.body .columns.large-6.pad-r{
+  padding-left: 25px;
+}
+table.body .icon-group .columns p.pb{
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.al_btn{
+  width: 100%;
+}
+table.body .icon-group .columns.first{
+  border-right: 1px solid $gray-third;
+}
+table.body .icon-group .columns th{
+  text-align: center;
+}
+.icon-group .columns a{
+  display: inline-block;
+}
+table.body .icon-group .columns.br_bottom.large-6{
+  border-bottom: 1px solid $blue;
+}
+
+table.body .icon-group .columns.large-6{
+  border-bottom: 1px solid $gray-third;
+
+}
+table.body .icon-group .columns.large-6 .columns.large-6{
+  height: 110px;
+  vertical-align: middle;
+}
+
+
+table.body .icon-group-main  th.columns.large-12{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+
+table.body .product.shadow .large-4 > table{
+  background-color: $white;
+  box-shadow: -1px 3px 5px rgba(0,0,0,.36);
+}
+
+
+
+table.body .prod-item--first{
+  text-align: center;
+  height: 245px;
+  background-color: $gray-light;
+  vertical-align: middle;
+  a{
+    display: block;
+  }
+}
+table.body .second .prod-item--first{
+  height: 200px;
+}
+table.body .logos .prod-item--first{
+  height: 130px;
+  background-color: $white;
+}
+
+table.body .product.second .columns.large-6,
+table.body .product.logos .columns.large-4
+{
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+table.body .title-main .columns.large-12{
+  padding-bottom: 35px;
+}
+table.body .logo-footer .columns.first{
+  padding-top: 25px;
+}
+
+table.body .sep .columns.large-12{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+table.body .product.logos .columns.large-4{
+  padding-bottom: 0;
+}
+
+table.body .product.logos.first-logos >tbody >tr > td{
+  padding-bottom: 30px;
+}
+
+
+.basic-link {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+}
+
+.head{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+  color: $white;
+  min-width: 220px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: normal;
+}
+.al_btn_right{
+  //width: 61%;
+  width: 150px;
+}
+
+hr{
+  width: 220px;
+  margin: 20px auto 0;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (22/14);
+}
+
+.decorative-line {
+  background: $grey;
+  height: 2px;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.news-name{
+  font-weight: normal;
+}
+.news-w{
+  font-size: 16px;
+  font-weight: normal;
+  color: $white;
+  text-align: left;
+}
+
+.sm-text{
+  font-size: 13px;
+}
+
+table.body .item-name{
+  display: block;
+  margin-bottom: 5px;
+}
+.item-price-sm{
+  font-size: 18px;
+}
+table.body .product.second{
+  .item-price-sm{
+    margin-bottom: 0;
+  }
+}
+.item-price {
+  font-size: 12px;
+  span{
+    font-size: 18px;
+  }
+}
+
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 716px) {
+
+  table.body .icon-group .columns.br_bottom.first.large-6{
+    border-right: none!important;
+  }
+
+  table.body .icon-group .columns.large-6 .columns.large-6{
+    height: 110px!important;
+  }
+  table.body .product.logos .columns.large-4{
+    margin-bottom: 20px!important;
+  }
+
+}
